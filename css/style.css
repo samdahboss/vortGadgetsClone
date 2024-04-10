@@ -11,7 +11,7 @@ body{
                 "Helvetica Neue", "Noto Sans", "Liberation Sans", 
                 Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
                  "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 16px;
+    font-size: 16px !important;
     background-color: #F1FBFF !important;
     overflow-x: hidden;
 }
@@ -55,6 +55,9 @@ body{
     font-weight: 500;
     line-height: 2em;
 }
+.carousel-caption h2{
+    font-weight: 500;
+}
 /*ABOUT*/
 #logo{
     margin: 0 0 auto;
@@ -69,4 +72,14 @@ body{
 .card-text{
     font-size: 1.2em;
     font-weight: 300;
+}
+
+@media (max-width: 992px){
+    #about-brand-name{
+        letter-spacing: 0em;
+    }
+    .carousel-caption h1{
+        font-size: 2em;
+        line-height: 1.5em;
+    }
 }
