@@ -20,10 +20,6 @@ body{
     font-size: 2.5em;
     font-weight: 700;
 }
-section{
-    border-bottom: 1px solid red;
-    border-top: 1px solid red;
-}
 .section-padding{
     padding: 100px 0;
 }
@@ -45,13 +41,19 @@ section{
 .carousel-item{
     height: 100vh;
     min-height: 300px;
-  }
+}
 .carousel-item img{
     height: 100%;
-  }
+}
 .carousel-caption{
-    bottom: 30%;
-  }
+    bottom: 20% !important;
+}
+.carousel-caption h1{
+    font-size: 2.5em;
+}
+.btn a{
+    text-decoration: none;
+}
 /*ABOUT*/
 #logo{
     margin: 0 0 auto;
