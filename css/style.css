@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --green: #369A80;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, 
+                "Helvetica Neue", "Noto Sans", "Liberation Sans", 
+                Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                 "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    background-color: #F1FBFF !important;
+}
+/*GENERAL STYLES*/
+.heading{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+section{
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+.section-padding{
+    padding: 100px 0;
+}
+/*NAVBAR*/
+#brand-name{
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+}
+#brand-name-span{
+    color: #198754;
+}
+#navbarCollapse{
+    justify-content: flex-end;
+}
+/*HOME*/
+#home{
+    width: 100vw;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+  }
+.carousel-item img{
+    height: 100%;
+  }
+.carousel-caption{
+    bottom: 30%;
+  }
+/*ABOUT*/
+#logo{
+    margin: 0 0 auto;
+}
+#about-brand-name{
+    
+    font-size: 2.5em;
+    letter-spacing: 0.3em;
+}
+/*SERVICES*/
+
+.card-text{
+    font-size: 1.2em;
+    font-weight: 300;
+}
