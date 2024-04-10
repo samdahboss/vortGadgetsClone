@@ -13,6 +13,7 @@ body{
                  "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 16px;
     background-color: #F1FBFF !important;
+    overflow-x: hidden;
 }
 /*GENERAL STYLES*/
 .heading{
@@ -35,8 +36,9 @@ body{
     justify-content: flex-end;
 }
 /*HOME*/
-#home{
+#Home{
     width: 100vw;
+    overflow: hidden;
 }
 .carousel-item{
     height: 100vh;
@@ -50,9 +52,8 @@ body{
 }
 .carousel-caption h1{
     font-size: 2.5em;
-}
-.btn a{
-    text-decoration: none;
+    font-weight: 500;
+    line-height: 2em;
 }
 /*ABOUT*/
 #logo{
