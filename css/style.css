@@ -24,6 +24,10 @@ body{
 .section-padding{
     padding: 100px 0;
 }
+.custom-btn{
+    border: 1px solid orange;
+    
+}
 /*NAVBAR*/
 #brand-name{
     font-size: 1.4em;
@@ -73,7 +77,25 @@ body{
     font-size: 1.2em;
     font-weight: 300;
 }
+/*GALLERY*/
+#gallery-card-container{
+    position: relative;
+    cursor: pointer;
+}
+#gallery-img{
+    z-index: 1;
+}
+#gallery-btn{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    z-index: 2;
+}
 
+.modal-title{
+    font-size: 2em !important;
+}
+/*MEDIA QUERY*/
 @media (max-width: 992px){
     #about-brand-name{
         letter-spacing: 0em;

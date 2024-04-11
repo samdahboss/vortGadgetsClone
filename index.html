@@ -25,7 +25,7 @@
                     <a class="nav-link " href="#Services">Services</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link " href="#Gadgets">Gadgets</a>
+                    <a class="nav-link " href="#gadgetsGallery">Gadgets</a>
                 </li>
                 <li class="navbar-item">
                     <a class="nav-link " href="#Offers">Offers</a>
@@ -42,17 +42,20 @@
     </nav>
     <main>
         <section id="Home" >
-            <div id="carouselExample" class="carousel slide">
+            <div id="carousel" class="carousel slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
               </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
+                    <div class="pb-5">
+
+                    </div>
                     <img src="./img/slide-1.avif" class="d-block w-100" alt="...">
                     <div id="" class=" carousel-caption text-white text-center">
                       <h1>HOW GOOD CAN A GADGET BE ?</h1>
@@ -66,6 +69,9 @@
                     </div>
                   </div>
                   <div class="carousel-item">
+                    <div class="pb-5">
+
+                    </div>
                     <img src="./img/slide-2.avif" class="d-block w-100" alt="...">
                     <div id="" class=" carousel-caption text-white text-center">
                         <h1>WHAT'S SO BRILLIANT ABOUT GADGETS ? </h1>
@@ -79,6 +85,9 @@
                       </div>
                   </div>
                   <div class="carousel-item">
+                    <div class="pb-5">
+
+                    </div>
                     <img src="./img/slide-3.avif" class="d-block w-100" alt="...">
                     <div id="" class=" carousel-caption text-white text-center">
                         <h1>...LOADED WITH FEATURES </h1>
@@ -92,6 +101,9 @@
                       </div>
                   </div>
                   <div class="carousel-item">
+                    <div class="pb-5">
+
+                    </div>
                     <img src="./img/slide-4.avif" class="d-block w-100" alt="...">
                     <div id="" class=" carousel-caption text-white text-center">
                         <h1>...ITS ALL AVAILABLE</h1>
@@ -105,6 +117,9 @@
                       </div>
                   </div>
                   <div class="carousel-item">
+                    <div class="pb-5">
+
+                    </div>
                     <img src="./img/slide-5.jpg" class="d-block w-100" alt="...">
                     <div id="" class=" carousel-caption text-white text-center">
                       <h1>A NEW PERSPECTIVE FOR GAMERS</h1>
@@ -118,6 +133,9 @@
                     </div>
                   </div>
                   <div class="carousel-item">
+                    <div class="pb-5">
+
+                    </div>
                     <img src="./img/slide-6.avif" class="d-block w-100" alt="...">
                     <div id="" class=" carousel-caption text-white text-center">
                       <h1>LOVE SOME GOOD MUSIC ? </h1>
@@ -133,11 +151,11 @@
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -207,6 +225,113 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="gadgetsGallery" class="section-padding">
+              <div class="row pb-5">
+                <h2 class="heading">Our Gadgets Gallery</h2>
+                <p class="text-center">All our gadgets here are available and even more.
+                   Just ask and will provide it. The images below contain information about each product.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#modal1">
+                    <div class="pb-4" id="gallery-card-container">
+                      <img src="./img/products/Galaxy S22+.jpeg" class="img-responsive rounded" id="gallery-img" width="100%" >
+                      <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                    </div> 
+                  </a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="ModalLabel">Galaxy S22+ 5G</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="./img/products/Galaxy S22+.jpeg" alt="" width="100%">
+                          <h3>Galaxy S22 Plus 5G</h3>
+                          <p class="mt-3">Don't make the mistake of overlooking the Galaxy S22 Plus. 
+                            It's every bit a premium device and outperforms its siblings in some key areas.
+                             The Galaxy S22 Plus is one of Samsung's very best and the top Android phone to beat for those 
+                             who don't need a stylus.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn custom-btn btn-success" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+</div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/gamepad1.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/iphone 11.jpg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/iphone 13.jpg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/iphone X-64gb.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/iphone X.jpg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/Iphone-12 Promax 128GB.jpg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/iphone-13.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/jbl.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/macbook1.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/plystation.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pb-4" id="gallery-card-container">
+                    <img src="./img/products/samsung-galxy-S20.jpeg" alt="" class="img-responsive rounded" id="gallery-img" width="100%">
+                    <button class="btn btn-success custom-btn fw-bold" id="gallery-btn">More</button>
+                  </div>
+                </div>
+              </div>
             </section>
         </div>
     </main>
