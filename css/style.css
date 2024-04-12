@@ -88,6 +88,10 @@ body{
     font-size: 1.2em;
     font-weight: 300;
 }
+.service-card{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px,
+                rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+}
 /*GALLERY*/
 #gallery-card-container{
     position: relative;
@@ -95,6 +99,11 @@ body{
 }
 #gallery-img{
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px 0px,
+                rgba(0, 0, 0, 0.09) 0px 4px 2px 0px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px 0px,
+                rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
 }
 #gallery-btn{
     position: absolute;
@@ -120,6 +129,10 @@ body{
     font-size: 1.2em;
     line-height: 1.5em;
     text-align: center;
+}
+/*OFFERS*/
+.ad-cards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
 }
 /*MEDIA QUERY*/
 @media (max-width: 992px){
