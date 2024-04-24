@@ -33,7 +33,7 @@ body{
     font-size: 1.4em;
     letter-spacing: 0.2em;
 }
-#brand-name-span{
+.brand-name-span{
     color: #198754;
 }
 #navbarCollapse{
@@ -148,6 +148,17 @@ h5.card-title{
 /*CONTACT*/
 input[type="submit"]{
     font-size: 1.5em;
+}
+
+/*FOOTER*/
+footer{
+    padding: 3em;
+}
+footer .heading{
+    font-size: 1.4em;
+    color: #198754;
+    font-weight: 400;
+    text-align: left;
 }
 /*MEDIA QUERY*/
 @media (max-width: 992px){
