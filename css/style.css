@@ -160,6 +160,15 @@ footer .heading{
     font-weight: 400;
     text-align: left;
 }
+footer .footer-hr{
+    height: 0.2em;
+    background-color: white;
+}
+.copyright-brand-name{
+    font-weight: 700;
+    font-size: 1.2em !important;
+    margin-left: 0;
+}
 /*MEDIA QUERY*/
 @media (max-width: 992px){
     #about-brand-name{
@@ -168,5 +177,16 @@ footer .heading{
     .carousel-caption h1{
         font-size: 2em;
         line-height: 1.5em;
+    }
+    #footer .container .row div.col-md-2{
+        width: 25%;
+    }
+}
+@media (max-width: 768px){
+    #footer .container .row div.mx-3{
+        margin: auto !important;
+    }
+    #footer .container .row div.col-md-2{
+        width: 100%;
     }
 }
