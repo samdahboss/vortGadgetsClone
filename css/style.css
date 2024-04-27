@@ -169,6 +169,16 @@ footer .footer-hr{
     font-size: 1.2em !important;
     margin-left: 0;
 }
+.fa-icons{
+    font-weight: 400;
+    font-size: 1.5em;
+    color: rgb(8, 132, 28);
+    box-sizing: content-box;
+}
+.fa-icons:hover{
+    color: #fff;
+    padding-right: 1em;
+}
 /*MEDIA QUERY*/
 @media (max-width: 992px){
     #about-brand-name{
@@ -180,6 +190,18 @@ footer .footer-hr{
     }
     #footer .container .row div.col-md-2{
         width: 25%;
+    }
+    #footer .row div{
+        margin-left: 0em !important;
+        margin-right: 0em !important;
+        
+    }
+    #brand-name{
+        letter-spacing: 0em;
+    }
+    #quick-links a{
+        padding-top: 0em !important;
+        padding-bottom: 0em !important;
     }
 }
 @media (max-width: 768px){
