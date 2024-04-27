@@ -88,6 +88,10 @@ body{
     font-size: 1.2em;
     font-weight: 300;
 }
+.fa-service-icons{
+    font-size: 3em;
+    padding-bottom: 0.3em;
+}
 .service-card{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px,
                 rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
@@ -176,6 +180,7 @@ footer .footer-hr{
     box-sizing: content-box;
 }
 .fa-icons:hover{
+    transition: 0.5s;
     color: #fff;
     padding-right: 1em;
 }
